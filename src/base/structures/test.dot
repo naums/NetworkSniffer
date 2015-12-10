@@ -1,0 +1,6 @@
+digraph {
+  suse -> mint [label="Port: 500; Time :4.000000"]
+  suse -> mint [label="Port: 505; Time :1.000000"]
+  mint -> raspbry [label="Port: 30; Time :1.000000"]
+  raspbry -> suse [label="Port: 50; Time :1.000000"]
+}
